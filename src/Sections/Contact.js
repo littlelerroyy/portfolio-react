@@ -11,27 +11,40 @@ const Contact = () => {
         <div className="card shadow-sm mx-auto" style={{ maxWidth: "700px" }}>
           <div className="card-header">Quick Mail Form</div>
           <div className="card-body">
-            <form>
+            <form
+              id="contactForm"
+              action="https://formsubmit.co/cb5109dba7100c27c5fe5ef7293e8cd0"
+              method="POST">
               <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label">
-                  Email address
+                <label for="email" className="form-label">
+                  Your Email address
                 </label>
                 <input
                   type="email"
                   className="form-control form-control-lg"
-                  id="exampleInputEmail1"
+                  id="email"
+                  name="email"
                   aria-describedby="emailHelp"
                 />
               </div>
 
               <div className="mb-3">
-                <label for="exampleInputPassword1" className="form-label">
+                <label for="message" className="form-label">
                   Your Message
                 </label>
                 <textarea
+                  name="message"
+                  id="message"
                   rows="5"
+                  type="text"
                   className="form-control form-control-lg"></textarea>
               </div>
+
+              <input
+                type="hidden"
+                name="_next"
+                value="http://leroybowmaker.tech/thanks"
+              />
 
               <button
                 type="submit"
