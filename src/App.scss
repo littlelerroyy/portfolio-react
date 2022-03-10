@@ -1,0 +1,134 @@
+$primary: rgb(68, 201, 253);
+$secondary: rgb(88, 88, 88);
+$body-color: rgb(94, 94, 94);
+$body-line-height: 1.7;
+
+body {
+  line-height: 1.7;
+}
+
+.TopBar {
+  font-size: 1.1rem;
+  z-index: 100;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-link {
+  padding: 5px 10px !important;
+  border-radius: 20px;
+  color: $secondary !important;
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: $primary;
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  fill: $secondary;
+}
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  font-size: 3rem;
+}
+
+section#Home {
+  height: 100vh;
+  background-image: url("https://marmotamaps.com/de/fx/wallpaper/download/faszinationen/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg");
+  background-size: cover;
+}
+section#Home h2 {
+  text-shadow: rgb(71, 71, 71) 1px 1px 3px;
+}
+
+.divider-custom {
+  margin: 1.25rem 0 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: $secondary;
+  border-radius: 1rem;
+  border-color: $secondary;
+}
+
+.divider-custom .divider-custom-icon {
+  color: $secondary;
+  font-size: 2rem;
+}
+.divider-custom-icon svg {
+  height: 50px;
+  width: auto;
+}
+.tech-icon {
+  display: inline-block;
+  margin: 10px 15px;
+  transition: all 0.3s ease;
+}
+.tech-icon .img {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+.tech-icon:hover .img {
+  background-size: 100%;
+  filter: grayscale(0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.nav-link {
+  font-family: "Quicksand";
+}
+
+.project-card .card-img-top {
+  height: 300px;
+  background-size: 100%;
+  background-position: 50%;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+}
+
+.project-card:hover .card-img-top {
+  background-size: 110%;
+}
+footer {
+  padding: 50px;
+}
+.project-card:hover {
+  background: #e9f9ff;
+}
+.project-card {
+  transition: all 0.5s;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
