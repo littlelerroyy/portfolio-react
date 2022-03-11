@@ -12,11 +12,8 @@ const AboutMe = () => {
         <div
           className="card shadow-sm mx-auto text-center"
           style={{ maxWidth: "1000px" }}>
-          <div className="card-header">Featured</div>
+          <div className="card-header">Quick About Me</div>
           <div className="card-body">
-            <h5 className="card-title fw-bold text-secondary">
-              Quick about me.
-            </h5>
             <p className="card-text">
               My name is Leroy Bowmaker and my goal is to create beautiful apps
               thats appealing to the eye that doesnt compromise on
@@ -24,7 +21,7 @@ const AboutMe = () => {
               and React stack to accomplish my projects! My Passion for tech is
               what drives me to be able to accomplish my goals within the tech
               industry each day. You can also check out my CV online with the
-              link below
+              link below.
             </p>
             <a
               href="http://leroybowmaker.tech/resume.pdf"
