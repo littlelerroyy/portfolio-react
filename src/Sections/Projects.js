@@ -91,7 +91,7 @@ const ProjectModalList = [
         "https://github.com/littlelerroyy/Mars-Rover-Expedition/releases/tag/v1.0.0",
       Github: "https://github.com/littlelerroyy/Mars-Rover-Expedition",
     },
-    Techlogos: TechLogos.filter((x) => x.Name == "C#"),
+    Techlogos: TechLogos.filter((x) => x.Name === "C#"),
   },
   {
     Title: "Portfolio Website",
@@ -104,10 +104,10 @@ const ProjectModalList = [
     },
     Techlogos: TechLogos.filter(
       (x) =>
-        x.Name == "React" ||
-        x.Name == "HTML" ||
-        x.Name == "CSS" ||
-        x.Name == "Bootstrap"
+        x.Name === "React" ||
+        x.Name === "HTML" ||
+        x.Name === "CSS" ||
+        x.Name === "Bootstrap"
     ),
   },
   {
@@ -123,11 +123,11 @@ const ProjectModalList = [
     },
     Techlogos: TechLogos.filter(
       (x) =>
-        x.Name == "PHP" ||
-        x.Name == "MySQL" ||
-        x.Name == "HTML" ||
-        x.Name == "CSS" ||
-        x.Name == "jQuery"
+        x.Name === "PHP" ||
+        x.Name === "MySQL" ||
+        x.Name === "HTML" ||
+        x.Name === "CSS" ||
+        x.Name === "jQuery"
     ),
   },
   {
@@ -141,7 +141,7 @@ const ProjectModalList = [
       Github: null,
     },
     Techlogos: TechLogos.filter(
-      (x) => x.Name == "HTML" || x.Name == "CSS" || x.Name == "jQuery"
+      (x) => x.Name === "HTML" || x.Name === "CSS" || x.Name === "jQuery"
     ),
   },
   {
@@ -155,11 +155,11 @@ const ProjectModalList = [
     },
     Techlogos: TechLogos.filter(
       (x) =>
-        x.Name == "PHP" ||
-        x.Name == "MySQL" ||
-        x.Name == "HTML" ||
-        x.Name == "CSS" ||
-        x.Name == "Javascript"
+        x.Name === "PHP" ||
+        x.Name === "MySQL" ||
+        x.Name === "HTML" ||
+        x.Name === "CSS" ||
+        x.Name === "Javascript"
     ),
   },
   {
@@ -172,7 +172,7 @@ const ProjectModalList = [
       Preview: null,
       Github: "https://github.com/littlelerroyy/android_kernel_htc_pyramid",
     },
-    Techlogos: TechLogos.filter((element) => element.Name == "Git"),
+    Techlogos: TechLogos.filter((element) => element.Name === "Git"),
   },
 ];
 

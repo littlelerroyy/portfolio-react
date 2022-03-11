@@ -1,11 +1,11 @@
 const ProjectCard = ({ Title, imgURL, URL, Description }) => {
   return (
     <div className="col">
-      <div class="card project-card shadow-sm">
+      <div className="card project-card shadow-sm">
         <div
-          class="card-img-top"
+          className="card-img-top"
           style={{ backgroundImage: `url(${imgURL})` }}></div>
-        <div class="card-body ">
+        <div className="card-body ">
           <button
             type="button"
             href={URL}
@@ -14,8 +14,8 @@ const ProjectCard = ({ Title, imgURL, URL, Description }) => {
             data-bs-target={URL}>
             More Info
           </button>
-          <h5 class="card-title">{Title}</h5>
-          <p class="card-text">{Description}</p>
+          <h5 className="card-title">{Title}</h5>
+          <p className="card-text">{Description}</p>
         </div>
       </div>
     </div>
