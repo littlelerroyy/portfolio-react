@@ -1,5 +1,6 @@
 import SectionHeading from "./SectionHeading";
 import TechIcon from "./TechIcon";
+import FontAwesomeIcon from "./FontAwesomeIcon";
 
 const ProjectModal = ({
   Title,
@@ -56,18 +57,20 @@ const ProjectModal = ({
             {Links.Preview != null ? (
               <a
                 target="_blank"
-                className="btn btn-primary text-white"
+                className="btn btn-primary split-btn text-white"
                 href={Links.Preview}>
-                Preview
+                <FontAwesomeIcon IconClassName="fa-play" />
+                <span>Preview</span>
               </a>
             ) : null}
 
             {Links.Github != null ? (
               <a
                 target="_blank"
-                className="btn btn-primary text-white"
+                className="btn btn-primary split-btn text-white"
                 href={Links.Github}>
-                Github Link
+                <FontAwesomeIcon IconClassName="fa-github" />
+                <span>Github Link</span>
               </a>
             ) : null}
 

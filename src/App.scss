@@ -130,5 +130,13 @@ footer {
   transition: all 0.5s;
 }
 
+.split-btn svg {
+  width: 1rem;
+  fill: white;
+  margin-right: 10px;
+  top: -2px;
+  position: relative;
+}
+
 @import "~bootstrap/scss/bootstrap.scss";
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
