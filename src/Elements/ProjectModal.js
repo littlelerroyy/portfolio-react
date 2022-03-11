@@ -20,7 +20,7 @@ const ProjectModal = ({
       aria-hidden="true">
       <div className="modal-dialog modal-xl">
         <div className="modal-content">
-          <div className="modal-header">
+          <div className="modal-header border-bottom-0">
             <h5 className="modal-title" id="exampleModalLabel"></h5>
             <button
               type="button"
@@ -57,7 +57,7 @@ const ProjectModal = ({
               </div>
             </div>
           </div>
-          <div className="modal-footer">
+          <div className="modal-footer border-top-0">
             {Links.Preview != null ? (
               <a
                 target="_blank"
