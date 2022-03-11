@@ -100,7 +100,7 @@ const ProjectModalList = [
     Description: "Portfolio website designed and developed by me!",
     Links: {
       Preview: null,
-      Github: "github.com",
+      Github: "https://github.com/littlelerroyy/portfolio-react",
     },
     Techlogos: TechLogos.filter(
       (x) =>
@@ -117,7 +117,8 @@ const ProjectModalList = [
     Description:
       "A gaming community that brings community gamers together to provide a unique gaming experience into organised competitions allowing players to win awards for their efforts. The site also featured a dedicated news page to update gamers of recent gaming and PC tech news.",
     Links: {
-      Preview: "awgn",
+      Preview:
+        "https://web.archive.org/web/20190213021322/http://www.awgn.net/",
       Github: null,
     },
     Techlogos: TechLogos.filter(
@@ -136,7 +137,7 @@ const ProjectModalList = [
     Description:
       "A website created for a media production company to display their vision, services and goals",
     Links: {
-      Preview: "redico.leroybowmaker.tech",
+      Preview: "https://redico.leroybowmaker.tech",
       Github: null,
     },
     Techlogos: TechLogos.filter(
@@ -149,7 +150,7 @@ const ProjectModalList = [
     ID: "AllClear",
     Description: "Website Designed and built for a Pool retail Buisness",
     Links: {
-      Preview: "www.allclearpoolsupplies.com.au",
+      Preview: "https://www.allclearpoolsupplies.com.au",
       Github: null,
     },
     Techlogos: TechLogos.filter(
