@@ -16,7 +16,7 @@ const Contact = () => {
               action="https://formsubmit.co/cb5109dba7100c27c5fe5ef7293e8cd0"
               method="POST">
               <div className="mb-3">
-                <label for="email" className="form-label">
+                <label htmlFor="email" className="form-label">
                   Your Email address
                 </label>
                 <input
@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
 
               <div className="mb-3">
-                <label for="message" className="form-label">
+                <label htmlFor="message" className="form-label">
                   Your Message
                 </label>
                 <textarea
