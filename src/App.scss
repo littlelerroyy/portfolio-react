@@ -92,6 +92,15 @@ section#Home h2 {
   margin: 10px 15px;
   transition: all 0.3s ease;
 }
+.tech-icon:hover {
+  filter: blur(0) !important;
+}
+.tech-icon-list:hover .tech-icon {
+  filter: blur(2px);
+}
+.tech-icon:hover {
+  filter: blur(0) !important;
+}
 .tech-icon .img {
   width: 100px;
   height: 100px;
