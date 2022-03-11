@@ -36,19 +36,19 @@ const ProjectCardList = [
     Title: "AWGN Website",
     imgURL: AWGNIMG,
     URL: "#AWGN",
-    Description: "Website Designed and built for an esports community",
+    Description: "eSports Community Website",
   },
   {
     Title: "Redico Productions Website",
     imgURL: RedicoIMG,
     URL: "#Redico",
-    Description: "Website Designed and built for an esports community",
+    Description: "Company Website",
   },
   {
     Title: "All Clear Pool Supplies Website",
     imgURL: AllClearIMG,
     URL: "#AllClear",
-    Description: "Website Designed and built for a Pool retail Buisness",
+    Description: "Company Website",
   },
   {
     Title: "Kernel Modification",
@@ -136,7 +136,7 @@ const ProjectModalList = [
     imgURL: RedicoIMG,
     ID: "Redico",
     Description:
-      "A website created for a media production company to display their vision, services and goals",
+      "A website created for a media production company to display their vision, services and goals.",
     Links: {
       Preview: "https://redico.leroybowmaker.tech",
       Github: null,
@@ -149,7 +149,8 @@ const ProjectModalList = [
     Title: "All Clear Pool Supplies Website",
     imgURL: AllClearIMG,
     ID: "AllClear",
-    Description: "Website Designed and built for a Pool retail Buisness",
+    Description:
+      "Website designed and built for a Pool retail business displaying their products and services.",
     Links: {
       Preview: "https://www.allclearpoolsupplies.com.au",
       Github: null,
