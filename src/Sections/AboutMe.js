@@ -16,7 +16,7 @@ const AboutMe = () => {
           <div className="card-body">
             <p className="card-text">
               My name is Leroy Bowmaker and my goal is to create beautiful apps
-              thats appealing to the eye that doesnt compromise on
+              that are appealing to the eye and don't compromise on
               functionality. I specialise in web development using the C# .NET
               and React stack to accomplish my projects! My Passion for tech is
               what drives me to be able to accomplish my goals within the tech
