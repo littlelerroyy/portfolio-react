@@ -7,13 +7,19 @@ const Home = () => {
         <div className="mx-auto my-auto text-white text-center">
           <h2>I'm Leroy Bowmaker</h2>
           <h2>I'm a Fullstack Web Developer</h2>
-          <a href="#About" className="btn btn-primary mx-2 text-white">
+          <a
+            href="#About"
+            className="btn btn-primary mx-2 my-2 text-white shadow-sm">
             About Me
           </a>
-          <a href="#Projects" className="btn btn-primary mx-2 text-white">
+          <a
+            href="#Projects"
+            className="btn btn-primary mx-2 my-2 text-white shadow-sm">
             My Projects
           </a>
-          <a href="#Contact" className="btn btn-primary mx-2 text-white">
+          <a
+            href="#Contact"
+            className="btn btn-primary mx-2 my-2 text-white shadow-sm">
             Contact Me!
           </a>
         </div>
