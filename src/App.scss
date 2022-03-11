@@ -138,5 +138,10 @@ footer {
   position: relative;
 }
 
+#About p.card-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
 @import "~bootstrap/scss/bootstrap.scss";
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
