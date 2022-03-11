@@ -77,7 +77,8 @@ const ProjectModalList = [
         x.Name === "MySQL" ||
         x.Name === "React" ||
         x.Name === "Bootstrap" ||
-        x.Name === "Visual Studio"
+        x.Name === "Visual Studio" ||
+        x.Name === "Razor"
     ),
   },
   {
