@@ -2,6 +2,7 @@ $primary: rgb(68, 201, 253);
 $secondary: rgb(88, 88, 88);
 $body-color: rgb(94, 94, 94);
 $body-line-height: 1.7;
+$border-radius: 0.5rem;
 
 body {
   line-height: 1.7;
@@ -18,7 +19,7 @@ body {
 
 .nav-link {
   padding: 5px 10px !important;
-  border-radius: 20px;
+  border-radius: $border-radius;
   color: $secondary !important;
 }
 
@@ -41,8 +42,13 @@ section h2 {
 
 section#Home {
   height: 100vh;
-  background-image: url("https://marmotamaps.com/de/fx/wallpaper/download/faszinationen/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg");
+  background-image: url("https://leroybowmaker.tech/backdrop.jpg");
   background-size: cover;
+}
+section#Skills,
+section#Contact {
+  background-image: url("https://leroybowmaker.tech/backdrop.jpg");
+  background-blend-mode: overlay;
 }
 section#Home h2 {
   text-shadow: rgb(71, 71, 71) 1px 1px 3px;
@@ -122,6 +128,17 @@ h5,
 }
 footer {
   padding: 50px;
+}
+footer svg {
+  width: 50px;
+  margin: 15px;
+  fill: #fff;
+}
+footer svg:hover {
+  fill: #205d74;
+}
+.card {
+  border-radius: 0.5rem;
 }
 .project-card:hover {
   background: #e9f9ff;
