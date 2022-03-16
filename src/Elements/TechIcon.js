@@ -1,10 +1,4 @@
 const TechIcon = ({ Name, imgURL }) => {
-  const AnimateIcon = (e: Event) => {
-    setInterval(function () {
-      e.target.classList.add("flipXaxis");
-    }, 1000);
-  };
-
   return (
     <div className="tech-icon">
       <div
