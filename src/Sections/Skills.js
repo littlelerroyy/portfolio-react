@@ -21,7 +21,7 @@ import RazerLogo from "../assets/img/tech/razor.png";
 import ReactLogo from "../assets/img/tech/react.png";
 import TypeScriptLogo from "../assets/img/tech/typescript.png";
 import VisualSudioLogo from "../assets/img/tech/visualstudio.png";
-import React from "react";
+import React, { useEffect } from "react";
 
 export const TechLogos = [
   { Name: "Apache", imgURL: ApacheLogo },
@@ -46,6 +46,25 @@ export const TechLogos = [
 ];
 
 const Skills = () => {
+  const AnimateIcon = (Element) => {
+    let minInterval = 4000;
+    let MaxInterval = 8000;
+    let RandomInterval =
+      Math.random() * (MaxInterval - minInterval) + minInterval;
+
+    setInterval(() => {
+      Element.classList.add("flipXaxis");
+      setTimeout(() => {
+        Element.classList.remove("flipXaxis");
+      }, 750);
+    }, RandomInterval);
+  };
+
+  useEffect(() => {
+    document.querySelectorAll(".tech-icon .img").forEach((element) => {
+      AnimateIcon(element);
+    });
+  });
   return (
     <>
       <section id="Skills" className="bg-light">

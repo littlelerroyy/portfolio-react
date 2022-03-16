@@ -114,6 +114,9 @@ section#Home h2 {
   background-size: 100%;
   filter: grayscale(0);
 }
+.flipXaxis {
+  transform: scaleX(-1);
+}
 
 h1,
 h2,
