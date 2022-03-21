@@ -80,9 +80,10 @@ const ProjectModal = ({
 
             <button
               type="button"
-              className="btn btn-secondary"
+              className="btn btn-secondary split-btn"
               data-bs-dismiss="modal">
-              Close
+              <FontAwesomeIcon IconClassName="fa-square-xmark" />
+              <span>Close</span>
             </button>
           </div>
         </div>
