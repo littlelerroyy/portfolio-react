@@ -17,7 +17,7 @@ import MVCLogo from "../assets/img/tech/mvc.png";
 import NetCoreLogo from "../assets/img/tech/netcore.png";
 import PhotoshopLogo from "../assets/img/tech/photoshop.png";
 import PHPLogo from "../assets/img/tech/php.png";
-import RazerLogo from "../assets/img/tech/razor.png";
+import RazorLogo from "../assets/img/tech/razor.png";
 import ReactLogo from "../assets/img/tech/react.png";
 import TypeScriptLogo from "../assets/img/tech/typescript.png";
 import VisualSudioLogo from "../assets/img/tech/visualstudio.png";
@@ -39,7 +39,7 @@ export const TechLogos = [
   { Name: ".NET Core", imgURL: NetCoreLogo },
   { Name: "Photoshop", imgURL: PhotoshopLogo },
   { Name: "PHP", imgURL: PHPLogo },
-  { Name: "Razor", imgURL: RazerLogo },
+  { Name: "Razor Pages", imgURL: RazorLogo },
   { Name: "React", imgURL: ReactLogo },
   { Name: "TypeScript", imgURL: TypeScriptLogo },
   { Name: "Visual Studio", imgURL: VisualSudioLogo },
