@@ -78,7 +78,7 @@ const ProjectModalList = [
         x.Name === "React" ||
         x.Name === "Bootstrap" ||
         x.Name === "Visual Studio" ||
-        x.Name === "Razor"
+        x.Name === "Razor Pages"
     ),
   },
   {
@@ -98,7 +98,8 @@ const ProjectModalList = [
     Title: "Portfolio Website",
     imgURL: PortfolioIMG,
     ID: "PortfolioWebsite",
-    Description: "Portfolio website designed and developed by me!",
+    Description:
+      "Portfolio website designed and developed by me! All content is hosted in an AWS EC2 Instance server.",
     Links: {
       Preview: null,
       Github: "https://github.com/littlelerroyy/portfolio-react",
@@ -108,7 +109,10 @@ const ProjectModalList = [
         x.Name === "React" ||
         x.Name === "HTML" ||
         x.Name === "CSS" ||
-        x.Name === "Bootstrap"
+        x.Name === "Bootstrap" ||
+        x.Name === "Linux" ||
+        x.Name === "Apache" ||
+        x.Name === "AWS"
     ),
   },
   {
@@ -171,7 +175,8 @@ const ProjectModalList = [
     Description:
       "This kernel mod was designed to speed up overall UI experience of the phone using an updated operating system while providing the added benefit of better battery life via altering CPU and GPU behaviour.",
     Links: {
-      Preview: null,
+      Preview:
+        "https://forum.xda-developers.com/t/kernel-3-4-cm12-ivanichs-cm12-kernel-overclocked-by-little-lerroyy-1-8-15.3048227/",
       Github: "https://github.com/littlelerroyy/android_kernel_htc_pyramid",
     },
     Techlogos: TechLogos.filter((element) => element.Name === "Git"),
