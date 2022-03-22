@@ -9,7 +9,9 @@ const Contact = () => {
       />
       <div className="container-sm">
         <div className="card shadow-sm mx-auto" style={{ maxWidth: "700px" }}>
-          <div className="card-header">Quick Mail Form</div>
+          <div className="card-header text-center">
+            Would you like to know more? Flick me a message!
+          </div>
           <div className="card-body">
             <form
               id="contactForm"
