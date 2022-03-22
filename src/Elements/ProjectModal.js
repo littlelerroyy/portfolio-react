@@ -74,7 +74,7 @@ const ProjectModal = ({
                 className="btn btn-primary split-btn text-white"
                 href={Links.Github}>
                 <FontAwesomeIcon IconClassName="fa-github" />
-                <span>Github Link</span>
+                <span>Github</span>
               </a>
             ) : null}
 
