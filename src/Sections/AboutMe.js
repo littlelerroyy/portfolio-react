@@ -25,15 +25,8 @@ const AboutMe = () => {
             <p className="card-text">
               Please have a squizz at what projects I've currently done down
               below! Be sure to check back often as I'm always creating new and
-              fun projects. If you would like to go back in time and have a peek
-              at my history please download my CV with the link below!
+              fun projects.
             </p>
-            <a
-              href="http://leroybowmaker.tech/resume.pdf"
-              className="btn btn-primary split-btn ms-auto text-white">
-              <FontAwesomeIcon IconClassName="fa-file-pdf" />
-              <span>Download Resume!</span>
-            </a>
           </div>
         </div>
       </div>
