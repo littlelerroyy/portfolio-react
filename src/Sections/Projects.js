@@ -33,19 +33,19 @@ const ProjectCardList = [
     Description: "Portfolio website built by me!",
   },
   {
-    Title: "AWGN Website",
+    Title: "AWGN",
     imgURL: AWGNIMG,
     URL: "#AWGN",
     Description: "eSports Community Website",
   },
   {
-    Title: "Redico Productions Website",
+    Title: "Redico Productions",
     imgURL: RedicoIMG,
     URL: "#Redico",
     Description: "Company Website",
   },
   {
-    Title: "All Clear Pool Supplies Website",
+    Title: "All Clear Pool Supplies",
     imgURL: AllClearIMG,
     URL: "#AllClear",
     Description: "Company Website",
@@ -136,7 +136,7 @@ const ProjectModalList = [
     ),
   },
   {
-    Title: "Redico Productions Website",
+    Title: "Redico Productions",
     imgURL: RedicoIMG,
     ID: "Redico",
     Description:
@@ -150,7 +150,7 @@ const ProjectModalList = [
     ),
   },
   {
-    Title: "All Clear Pool Supplies Website",
+    Title: "All Clear Pool Supplies",
     imgURL: AllClearIMG,
     ID: "AllClear",
     Description:
