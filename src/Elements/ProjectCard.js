@@ -9,7 +9,7 @@ const ProjectCard = ({ Title, imgURL, URL, Description }) => {
           <button
             type="button"
             href={URL}
-            className="btn btn-primary float-end text-white ms-2"
+            className="btn btn-primary float-end text-white ms-2 shadow-sm"
             data-bs-toggle="modal"
             data-bs-target={URL}>
             More Info
